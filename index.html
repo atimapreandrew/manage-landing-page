@@ -31,8 +31,33 @@
           class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
           >Get Started</a
         >
+
+        <!-- Hamburger Icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger focus:outline-none md:hidden"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center self-center hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="#" class="hover:text-brightRed">Pricing</a>
+          <a href="#" class="hover:text-brightRed">Product</a>
+          <a href="#" class="hover:text-brightRed">About Us</a>
+          <a href="#" class="hover:text-brightRed">Careers</a>
+          <a href="#" class="hover:text-brightRed">Community</a>
+        </div>
       </div>
     </nav>
+
     <!-- Hero Section -->
     <section id="hero">
       <!-- Flex Container -->
@@ -360,5 +385,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
